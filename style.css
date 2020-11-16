@@ -1,0 +1,38 @@
+body {
+    background: #FFF;
+    padding: 20px;
+    font-family: Helvetica;
+  }
+  
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .slider-container {
+    color: #333;
+    /* padding:0 0 30px; */
+    overflow: hidden;
+    background-color: aliceblue;
+  }
+
+  .slider-track {
+    display: flex;
+    /* background-color: aquamarine; */
+    transition: .4s;
+  }
+  
+  .slide {
+    font-size: 90px;
+    min-width: 100px;
+    /* padding:10px 0; */
+    /* margin:20px 15px; */
+    text-align: center;
+    border: 1px solid #999;
+  }
+
+  .slider-button {
+    text-align: center;
+  }
+  .slide.locked { background: rgba(255,255,0,0.5); }
+  
